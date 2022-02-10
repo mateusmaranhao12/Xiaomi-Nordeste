@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/*Estrutura*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/*Navegação*/
+.navbar-warning {
+  background: linear-gradient(100deg, #ffa550, #ff9100);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navbar-warning a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  height: 120px;
+  padding: 15px;
+}
+
+.logo :hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.logo img {
+  height: 100%;
+}
+
+.menu-toggle {
+  color: black;
+  background-color: #ff8e31;
+  border: solid 1px black;
+}
+
+/*Seção início*/
+.inicio {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #ffeed7;
+}
+
+.inicio h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.inicio p {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/*Cartões*/
+.cartoes {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.cartoes .card:hover {
+  background: #f0f0f0;
+}
+
+.cartoes h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+/*Novidades*/
+.novidades h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.novidades .carousel-index {
+  background: #ff7300;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+/*Footer*/
+footer .footer1 {
+  margin-top: 20px;
+  background: linear-gradient(100deg, #ff9100, #ff5100);
+  padding: 60px;
+}
+
+footer .footer1 h5 {
+  color: white;
+  font-weight: bold;
+}
+
+footer h3 {
+  color: orangered;
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+}
+/*# sourceMappingURL=style.css.map */
